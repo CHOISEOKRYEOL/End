@@ -3,10 +3,11 @@
     /* font size */
     --font-large: 24px;
     --font-medium: 20px;
-    --font-small: 18px;
+    --font-small: 15px;
     --font-micro: 12px;
     /* img size */
     --logo-size: 60px;
+    --avarta-size: 40px;
 }
 
 body {
@@ -39,6 +40,7 @@ a {
 .logo_menu {
     display: flex;
     justify-content: space-around;
+    padding-top: 30px;
 
 }
 
@@ -61,4 +63,20 @@ a {
 .search {
     display: flex;
     align-items: center;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.icon_img img {
+    width: var(--avarta-size);
+    height: var(--avarta-size);
+    border-radius: 50%;
+    padding-right: 7px;
+}
+
+.icon_content {
+    font-size: var(--font-small);
 }
