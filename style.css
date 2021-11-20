@@ -14,6 +14,13 @@ body {
     font-family: 'Noto Sans KR', sans-serif;
 }
 
+button {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -29,9 +36,16 @@ a {
     padding-right: 6px;
 }
 
+.logo_menu {
+    display: flex;
+    justify-content: space-around;
+
+}
+
 .logo_icon {
     display: flex;
     align-items: center;
+    padding-right: 15px;
 }
 
 .logo_icon img{
@@ -41,5 +55,10 @@ a {
 
 .logo_name {
     font-size: var(--font-micro);
+    align-items: center;
+}
+
+.search {
+    display: flex;
     align-items: center;
 }
