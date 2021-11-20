@@ -1,0 +1,45 @@
+
+:root {
+    /* font size */
+    --font-large: 24px;
+    --font-medium: 20px;
+    --font-small: 18px;
+    --font-micro: 12px;
+    /* img size */
+    --logo-size: 60px;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.login_menu {
+    display: flex;
+    justify-content: end;
+    font-size: var(--font-micro);
+}
+
+.login {
+    padding-right: 6px;
+}
+
+.logo_icon {
+    display: flex;
+    align-items: center;
+}
+
+.logo_icon img{
+    width: var(--logo-size);
+    height: var(--logo-size);
+}
+
+.logo_name {
+    font-size: var(--font-micro);
+    align-items: center;
+}
