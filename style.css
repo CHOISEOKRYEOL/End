@@ -6,8 +6,9 @@
     --font-small: 15px;
     --font-micro: 12px;
     /* img size */
-    --logo-size: 60px;
+    --logo-size: 70px;
     --avarta-size: 40px;
+    /* color */
 }
 
 body {
@@ -27,56 +28,102 @@ a {
     color: black;
 }
 
-.login_menu {
+.main {
     display: flex;
-    justify-content: end;
-    font-size: var(--font-micro);
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+}
+.menu li {
+    font-size: var(--font-small);
+    padding: 6px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo img {
+    width: var(--logo-size);
+    height: var(--logo-size);
+    border-radius: 20%;
+    margin-right: 50px;
 }
 
 .login {
-    padding-right: 6px;
-}
-
-.logo_menu {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 30px;
-
-}
-
-.logo_icon {
-    display: flex;
-    align-items: center;
-    padding-right: 15px;
-}
-
-.logo_icon img{
-    width: var(--logo-size);
-    height: var(--logo-size);
-}
-
-.logo_name {
-    font-size: var(--font-micro);
-    align-items: center;
-}
-
-.search {
     display: flex;
     align-items: center;
 }
 
-.icon {
-    display: flex;
-    align-items: center;
+.login a,
+.login div {
+    padding: 6px;
 }
 
-.icon_img img {
-    width: var(--avarta-size);
-    height: var(--avarta-size);
-    border-radius: 50%;
-    padding-right: 7px;
-}
-
-.icon_content {
+.login a {
     font-size: var(--font-small);
+}
+
+.content {
+    font-size: 5px;
+}
+
+.shopnumber {
+    background-color: orangered;
+    color: white;
+    border-radius: 70%;
+}
+
+.mainimg {
+    display: flex;
+    justify-content: center;
+}
+
+.mainimg .left {
+    background-image: url(./img/blurry-gradient-haikei.svg);
+    width: 38%;
+    height: 30em;
+}
+
+.mainimg .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 50px;
+}
+
+.mainimg .right {
+    width: 38%;
+    height: 30em;
+    background-image: url(./img/stacked-waves-haikei.svg);
+}
+
+.mainimg .right img {
+    width: 170%;
+    height: 100%;
+    padding-top: 100px;
+    padding-right: 50px;
+}
+
+.shopnow_btn {
+    background-color: black;
+    color: white;
+}
+
+.feel {
+    font-size: 70px;
+    font-family: 'Lobster', cursive;
+}
+
+.shopnow_btn {
+    width: 20%;
+    height: 4em;
 }
