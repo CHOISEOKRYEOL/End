@@ -127,3 +127,28 @@ a {
     width: 20%;
     height: 4em;
 }
+
+.learnmore {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.learnmore .title {
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+    padding-bottom: 30px;
+}
+
+.learnmore .content {
+    font-size: var(--font-small);
+}
+
+.learn_btn {
+    background-color: black;
+    color: white;
+    width: 9%;
+    height: 3.7em;
+    margin-top: 20px;
+}
