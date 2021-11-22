@@ -88,7 +88,7 @@ a {
 }
 
 .mainimg .left {
-    background-image: url(./img/제목\ 없는\ 디자인\ \(2\).png);
+    background-image: url(./img/backbround.png);
     width: 38%;
     height: 30em;
 }
@@ -152,3 +152,25 @@ a {
     height: 3.7em;
     margin-top: 20px;
 }
+
+.featured_collections {
+    margin-top: 200px;
+    background-image: url(./img/backbround.png);
+}
+
+.one img {
+    width: 10%;
+    height: 10%;
+}
+
+.two img {
+    width: 10%;
+    height: 10%;
+}
+
+.three img {
+    width: 10%;
+    height: 10%;
+}
+
+
